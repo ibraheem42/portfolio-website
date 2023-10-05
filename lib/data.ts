@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2020",
   },
   {
-    title: "Full-Stack Software Engineer",
+    title: "Full-Stack Software Engineer @ Arbisoft",
     location: "Mckinny, TX",
     description:
       "I worked as a full-stack software engineer where I was put on multiple projects but my main contribution was towards Frontend using React",

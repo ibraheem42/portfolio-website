@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import invaluable from "@/public/invaluable.png";
+import xiangqi from "@/public/xiangqi.png";
+import websiteBuilder from "@/public/website-builder.png";
 
 export const links = [
   {
@@ -35,73 +35,73 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelors in Computer Science",
+    location: "FAST-NUCES",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I immediately found a job as a full-stack software engineer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full-Stack Software Engineer",
+    location: "Mckinny, TX",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a full-stack software engineer where I was put on multiple projects but my main contribution was towards Frontend using React",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "July 2020 - July 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Toronto, ON",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Redux, Node.js, HTML5, CSS",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "July 2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Invaluable",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "An auction website with multiple categories. I worked as a full-stack developer on this project for 1.5 years.",
+    tags: ["React", "Next.js", "TypeScript", "JavaScript", "Node.js", "SocketIO", "Redux"],
+    imageUrl: invaluable,
   },
   {
-    title: "rmtDev",
+    title: "Xiangqi",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A Multiplayer Chess Game. I was a full-stack engineer for 1.5 years. People can play with real players and bots.",
+    tags: ["React", "JavaScript", "Python", "Flask", "Redux-Saga", "SocketIO"],
+    imageUrl: xiangqi,
   },
   {
-    title: "Word Analytics",
+    title: "Website Builder",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A website builder where you can build your page using drag-drop responsive components. I was the lead Frontend engineer.",
+    tags: ["React", "Next.js", "TypeScript", "Craft.js", "ChakraUI"],
+    imageUrl: websiteBuilder,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "HTML",
+  "CSS",
   "Redux",
   "GraphQL",
   "Apollo",
   "Express",
   "PostgreSQL",
+  "MongoDB",
   "Python",
+  "Flask",
   "Django",
-  "Framer Motion",
+  "SocketIO",
+  "Algolia"
 ] as const;

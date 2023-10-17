@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaDev, FaGithubSquare, FaMedium, FaTwitter } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import portrait from "@/public/portrait.jpeg";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -103,6 +103,27 @@ export default function Intro() {
           target="_blank"
         >
           <FaGithubSquare />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://twitter.com/heem4212"
+          target="_blank"
+        >
+          <FaTwitter />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://medium.com/@ibraheem.ahmed"
+          target="_blank"
+        >
+          <FaMedium />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://dev.to/heem"
+          target="_blank"
+        >
+          <FaDev />
         </a>
       </motion.div>
     </section>
